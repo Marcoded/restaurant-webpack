@@ -1,0 +1,54 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h1 {
+    color: rgb(182, 53, 182);
+}
+
+.hero-img {
+    height: 40rem;
+    width: auto;
+    border-radius: 3rem;
+}
+
+.dish-img {
+    height: 10rem;
+    width: auto;
+    border-radius: 3rem;
+}
+
+.dish-container {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.dish-card {
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 2rem;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
